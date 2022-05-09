@@ -3,3 +3,135 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: white;
+}
+
+/* colori di sfondo */
+.bgcolor1{
+    background-color: blue;
+}
+
+.bgcolor2{
+    background-color: grey;
+}
+
+.bgcolor3{
+    background-color: rgb(49, 47, 47);
+}
+/* header */
+header{
+    background-color: lightblue;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.head-cont{
+    display: flex;
+    width: 70%;
+    background-color: burlywood;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding: 2px;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.menu{
+    text-align: center;
+    border: dashed black 3px;
+}
+
+.login{
+    border: dashed black 3px;
+    text-align: right;
+}
+
+.logo{
+    border: dashed black 3px;
+}
+
+/* main */
+.container, .container-big{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 600px;
+}
+
+.container-big{
+    height: 800px;
+}
+
+.box-section1{
+    width: 50%;
+    height: 90%;
+    background-color: rgb(222, 51, 168);
+    border: black dashed 3px;
+    border-radius: 7px;
+}
+
+.border-bot{
+    border-bottom: solid 3px rgba(131,238,255,0.6);
+}
+
+.box-section2{
+    width: 40%;
+    height: 90%;
+    background-color: dodgerblue;
+    border: black dashed 3px;
+}
+
+.box-section3{
+    width: 30%;
+    height: 90%;
+    background-color: pink;
+    border: black dashed 3px;
+}
+
+.box-section4{
+    width: 70%;
+    height: 90%;
+    background-color: green;
+    border: black dashed 3px;
+}
+
+.box-section5{
+    width: 20%;
+    height: 90%;
+    background-color: salmon;
+    border: black dashed 3px;
+}
+
+.box-section6{
+    width: 50%;
+    height: 90%;
+    border: black dashed 3px;
+    display: flex;
+}
+
+.box-section7{
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+    border: white dashed 3px;
+}
