@@ -26,7 +26,7 @@ body{
 /* header */
 header{
     background-color: lightblue;
-    height: 50px;
+    height: 60px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -37,19 +37,18 @@ header{
     display: flex;
     width: 70%;
     background-color: burlywood;
-    justify-content: space-between;
     margin: 0 auto;
+    align-items: center;
 }
 
 ul{
     display: flex;
+    justify-content: center;
 }
 
 li{
     list-style: none;
     padding: 2px;
-    align-items: center;
-
 }
 
 li a{
@@ -58,12 +57,19 @@ li a{
 
 .menu{
     text-align: center;
+    flex-grow: 3;
 }
 
 .login{
     text-align: right;
+    flex-grow: 1;
+    padding: 0 10px;
 }
 
+.logo{
+    flex-grow: 1;
+    padding: 0 10px;
+}
 /* main */
 .container, .container-big{
     margin: 0 auto;
