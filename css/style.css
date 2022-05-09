@@ -8,6 +8,9 @@ body{
     background-color: white;
 }
 
+.border-dash{
+    border: black dashed 3px;
+}
 /* colori di sfondo */
 .bgcolor1{
     background-color: blue;
@@ -30,7 +33,7 @@ header{
     width: 100%;
 }
 
-.head-cont{
+.cont{
     display: flex;
     width: 70%;
     background-color: burlywood;
@@ -45,6 +48,8 @@ ul{
 li{
     list-style: none;
     padding: 2px;
+    align-items: center;
+
 }
 
 li a{
@@ -53,16 +58,10 @@ li a{
 
 .menu{
     text-align: center;
-    border: dashed black 3px;
 }
 
 .login{
-    border: dashed black 3px;
     text-align: right;
-}
-
-.logo{
-    border: dashed black 3px;
 }
 
 /* main */
@@ -86,7 +85,6 @@ li a{
     width: 50%;
     height: 90%;
     background-color: rgb(222, 51, 168);
-    border: black dashed 3px;
     border-radius: 7px;
 }
 
@@ -98,34 +96,29 @@ li a{
     width: 40%;
     height: 90%;
     background-color: dodgerblue;
-    border: black dashed 3px;
 }
 
 .box-section3{
     width: 30%;
     height: 90%;
     background-color: pink;
-    border: black dashed 3px;
 }
 
 .box-section4{
     width: 70%;
     height: 90%;
     background-color: green;
-    border: black dashed 3px;
 }
 
 .box-section5{
     width: 20%;
     height: 90%;
     background-color: salmon;
-    border: black dashed 3px;
 }
 
 .box-section6{
     width: 50%;
     height: 90%;
-    border: black dashed 3px;
     display: flex;
 }
 
@@ -134,4 +127,33 @@ li a{
     height: 100%;
     background-color: aqua;
     border: white dashed 3px;
+}
+
+main{
+    border-bottom: solid white 2px;
+}
+/* footer */
+footer{
+    background-color: lightblue;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+
+.cont-foot{
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+    height: 50px;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+.logo-foot{
+    background-color: grey;
+    width: 60px;
+    text-align: center;
 }
