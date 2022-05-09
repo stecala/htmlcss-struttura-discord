@@ -38,7 +38,7 @@ header{
     width: 70%;
     background-color: burlywood;
     margin: 0 auto;
-    align-items: center;
+    height: 40px;
 }
 
 ul{
@@ -48,7 +48,7 @@ ul{
 
 li{
     list-style: none;
-    padding: 2px;
+    padding: 0 10px;
 }
 
 li a{
@@ -57,20 +57,25 @@ li a{
 
 .menu{
     text-align: center;
-    height: 40px;
-    flex-grow: 3;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .login{
     text-align: right;
-    flex-grow: 1;
+    width: 20%;
     padding: 0 10px;
-    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .logo{
-    flex-grow: 1;
-    height: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
     padding: 0 10px;
 }
 /* main */
